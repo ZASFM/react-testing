@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './components/login';
 
 function App() {
+  let a=1;
+  let b=2;
   return (
     <div className="App">
-      <header className="App-header">
+      App
+{/*       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,7 +26,10 @@ function App() {
           <li>Banana</li>
           <li>Coco</li>
         </ul>
-      </header>
+        <h1 data-testid="headerOne">Testing with title</h1>
+        <span title='sum'>{a+b}</span>
+      </header> */}
+      <Login/>
     </div>
   );
 }
