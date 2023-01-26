@@ -17,6 +17,11 @@ function App() {
         >
           Learn React
         </a>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Coco</li>
+        </ul>
       </header>
     </div>
   );
